@@ -30,16 +30,16 @@ export const VelocityText = () => {
   return (
     <section
       ref={targetRef}
-      className="h-[60px] bg-neutral-50 text-neutral-950"
+      className="relative bg-neutral-50 border-4 border-zinc-900 text-neutral-950"
     >
-      <div className="sticky top-0 flex h-[60px] items-center overflow-hidden">
+      <div className="sticky top-0 flex h-[60px] items-center overflow-hidden z-40">
         <motion.p
           style={{ skewX, x }}
           className="origin-bottom-left whitespace-nowrap text-3xl font-black uppercase leading-[0.85] md:text-5xl md:leading-[0.85]"
         >
           Nothing in this world can take the place of persistence. Talent will
-          not; nothing is more common than unsuccessful men with talent. Genius
-          will not; unrewarded genius is almost a proverb. Education will not;
+          not nothing is more common than unsuccessful men with talent. Genius
+          will not; unrewarded genius is almost a proverb. Education will not
           the world is full of educated derelicts. Persistence and determination
           alone are omnipotent. The slogan 'Press On!' has solved and always
           will solve the problems of the human race.
